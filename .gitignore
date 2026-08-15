@@ -1,0 +1,50 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# Frontend dependencies and generated output
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local Frappe/Bench installations and data
+/frappe-bench/
+/env/
+/sites/
+/logs/
+/backups/
+*.sql
+*.sql.gz
+*.tar
+*.tgz
+

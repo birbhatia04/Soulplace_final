@@ -1,0 +1,109 @@
+{
+ "app": "soulplace",
+ "charts": [],
+ "content": "[{\"id\":\"soulplace-heading\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Soulplace Clinical Operations</span>\",\"col\":12}},{\"id\":\"soulplace-card\",\"type\":\"card\",\"data\":{\"card_name\":\"Clinical Operations\",\"col\":12}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": null,
+ "hide_custom": 0,
+ "icon": "heart",
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Soulplace",
+ "link_to": null,
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Clinical Operations",
+   "link_count": 0,
+   "link_to": null,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Appointments",
+   "link_count": 0,
+   "link_to": "SoulPlace Appointment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consultations",
+   "link_count": 0,
+   "link_to": "Consultation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Teleconsult Sessions",
+   "link_count": 0,
+   "link_to": "Teleconsult Session",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Doctors",
+   "link_count": 0,
+   "link_to": "Doctor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Patients",
+   "link_count": 0,
+   "link_to": "PatientUser",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Prescriptions",
+   "link_count": 0,
+   "link_to": "Prescription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Patient Consent Records",
+   "link_count": 0,
+   "link_to": "Patient Consent Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "Soulplace",
+ "name": "Soulplace",
+ "number_cards": [],
+ "parent_page": null,
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 50.0,
+ "shortcuts": [],
+ "title": "Soulplace",
+ "type": "Workspace"
+}

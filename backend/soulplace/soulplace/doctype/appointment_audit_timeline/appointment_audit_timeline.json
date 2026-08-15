@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-07-27 23:24:29.445461",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "appointment",
+  "event_type",
+  "previous_status",
+  "new_status",
+  "actor_user",
+  "actor_role",
+  "reason",
+  "event_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "appointment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SoulPlace Appointment",
+   "options": "SoulPlace Appointment"
+  },
+  {
+   "fieldname": "event_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Event Type",
+   "options": "\nCreated\nConfirmed\nRescheduled\nCancelled\nCompleted\nNo Show"
+  },
+  {
+   "fieldname": "previous_status",
+   "fieldtype": "Data",
+   "label": "Previous Status"
+  },
+  {
+   "fieldname": "new_status",
+   "fieldtype": "Data",
+   "label": "New Status"
+  },
+  {
+   "fieldname": "actor_user",
+   "fieldtype": "Link",
+   "label": "Actor User",
+   "options": "User",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "actor_role",
+   "fieldtype": "Data",
+   "label": "Actor Role"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Small Text",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "event_time",
+   "fieldtype": "Datetime",
+   "label": "Event Time"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-28 21:47:05.983666",
+ "modified_by": "Administrator",
+ "module": "Soulplace",
+ "name": "Appointment Audit Timeline",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Patient App User"
+  },
+  {
+   "read": 1,
+   "role": "Doctor App User"
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

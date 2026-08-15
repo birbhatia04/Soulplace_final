@@ -1,0 +1,15 @@
+{
+ "app": "soulplace",
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "App",
+ "idx": 16,
+ "label": "Soulplace",
+ "link": "/app/soulplace",
+ "link_type": "External",
+ "logo_url": "/assets/soulplace/images/soulplace.svg",
+ "name": "Soulplace",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

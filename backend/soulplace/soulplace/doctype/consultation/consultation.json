@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-07-20 00:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "consultation_section",
+  "appointment",
+  "doctor",
+  "diagnosis",
+  "notes",
+  "follow_up_date",
+  "app_clinical_section",
+  "chief_complaint",
+  "soap_subjective",
+  "soap_objective",
+  "soap_assessment",
+  "soap_plan",
+  "patient_friendly_summary"
+ ],
+ "fields": [
+  {
+   "fieldname": "consultation_section",
+   "fieldtype": "Section Break",
+   "label": "Consultation"
+  },
+  {
+   "fieldname": "appointment",
+   "fieldtype": "Link",
+   "label": "SoulPlace Appointment",
+   "options": "SoulPlace Appointment"
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "label": "Doctor",
+   "options": "Doctor"
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Text",
+   "label": "Diagnosis",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "follow_up_date",
+   "fieldtype": "Date",
+   "label": "Follow Up Date"
+  },
+  {
+   "fieldname": "app_clinical_section",
+   "fieldtype": "Section Break",
+   "label": "Clinical Notes (App)"
+  },
+  {
+   "fieldname": "chief_complaint",
+   "fieldtype": "Small Text",
+   "label": "Chief Complaint",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "soap_subjective",
+   "fieldtype": "Text",
+   "label": "Subjective",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "soap_objective",
+   "fieldtype": "Text",
+   "label": "Objective",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "soap_assessment",
+   "fieldtype": "Text",
+   "label": "Assessment",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "soap_plan",
+   "fieldtype": "Text",
+   "label": "Plan",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "patient_friendly_summary",
+   "fieldtype": "Text Editor",
+   "label": "Patient Friendly Summary"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-27 23:31:57.802133",
+ "modified_by": "Administrator",
+ "module": "Soulplace",
+ "name": "Consultation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Patient App User"
+  },
+  {
+   "read": 1,
+   "role": "Doctor App User"
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

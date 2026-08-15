@@ -1,0 +1,1 @@
+"""Standard Soulplace workspaces."""

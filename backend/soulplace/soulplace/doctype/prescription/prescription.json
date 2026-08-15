@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-07-20 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "prescription_section",
+  "consultation",
+  "medicine_name",
+  "dosage",
+  "instructions"
+ ],
+ "fields": [
+  {
+   "fieldname": "prescription_section",
+   "fieldtype": "Section Break",
+   "label": "Prescription"
+  },
+  {
+   "fieldname": "consultation",
+   "fieldtype": "Link",
+   "label": "Consultation",
+   "options": "Consultation"
+  },
+  {
+   "fieldname": "medicine_name",
+   "fieldtype": "Data",
+   "label": "Medicine Name"
+  },
+  {
+   "fieldname": "dosage",
+   "fieldtype": "Data",
+   "label": "Dosage"
+  },
+  {
+   "fieldname": "instructions",
+   "fieldtype": "Text",
+   "label": "Instructions"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-20 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Soulplace",
+ "name": "Prescription",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Patient App User"
+  },
+  {
+   "read": 1,
+   "role": "Doctor App User"
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
